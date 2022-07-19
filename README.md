@@ -3,7 +3,7 @@
 import ...  
 
 default arguments:  
-* to avoid repeated values
+* to avoid repeated values *
 ```
 default_args = {
     'owner': 'romank',
