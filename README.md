@@ -3,7 +3,7 @@
 import ...  
 
 default arguments:  
-* to avoid repeated values *
+  to avoid repeated values  
 ```
 default_args = {
     'owner': 'romank',
@@ -11,3 +11,6 @@ default_args = {
     'depends_on_past': False,
 }
 ```
+
+sources
+[link](https://www.bigdataschool.ru/blog/apache-airflow-quick-start.html)
