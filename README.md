@@ -99,22 +99,24 @@ with DAG(
 ```
 
 ## DAG file description
-
 Dependency description  
+  Tasks t2 and t3 are in paralel  
+  t2 starts only if t1 successful
 ```
-t1.set_downstream([t2, t3])
-t1 >> [t2, t3]
-[t2, t3] << t1
-
-t1 >> t2 
-t1 >> t3 
-
-Meaning:  
 #    t2
 #   /  
 # t1    
 #   \  
 #    t3
+```
+The below descriptions are equivalent
+```
+t1 >> t2 
+t1 >> t3 
+
+t1.set_downstream([t2, t3])
+t1 >> [t2, t3]
+[t2, t3] << t1
 ```
 
 sources:  
