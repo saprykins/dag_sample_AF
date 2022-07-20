@@ -1,6 +1,14 @@
-# dag_sample_airflow
+# Logical blocks of a DAG file
 
 import ...  
+
+default arguments  
+
+DAG instantiation  
+
+Tasks generation  
+
+Set up dependencies  
 
 default arguments:  
   to avoid repeated values  
