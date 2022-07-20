@@ -120,5 +120,6 @@ t1 >> [t2, t3]
 ```
 
 Launch is possible by Pub/Sub and Function [lnk](https://stackoverflow.com/questions/58551125/trigger-cloud-composer-dag-with-a-pub-sub-message)  
+  
 sources:  
-[link](https://www.bigdataschool.ru/blog/apache-airflow-quick-start.html)
+[rus link](https://www.bigdataschool.ru/blog/apache-airflow-quick-start.html)
