@@ -10,11 +10,6 @@ Tasks generation
 
 Set up dependencies  
 
-## 
-```
-gsutil cp file.yaml gs://us-central1-airflow-check-c-0ac5f198-bucket/dags
-```
-
 
 ## Sample DAG file  
 
@@ -101,6 +96,11 @@ with DAG(
     )
 
     t1 >> [t2, t3]
+```
+
+## Send file to DAG-folder
+```
+gsutil cp file.yaml gs://us-central1-airflow-check-c-0ac5f198-bucket/dags
 ```
 
 ## DAG file description
