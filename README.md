@@ -106,7 +106,7 @@ Send operators
 ```
 gsutil cp dag-example.py gs://europe-west1-test-dag-w-new-af7c368b-bucket/plugins
 ```
-
+ 
 ```
 gsutil cp $HOME/my_operator.py gs://<COMPOSER_BUCKET_NAME>/plugins
 ```
