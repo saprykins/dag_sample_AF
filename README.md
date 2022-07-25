@@ -100,7 +100,7 @@ with DAG(
 
 ## Send file to DAG-folder
 ```
-gsutil cp file.yaml gs://us-central1-airflow-check-c-0ac5f198-bucket/dags
+gsutil cp dag-example.py gs://us-central1-airflow-check-c-0ac5f198-bucket/dags
 ```
 
 ## DAG file description
