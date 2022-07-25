@@ -102,6 +102,10 @@ with DAG(
 ```
 gsutil cp dag-example.py gs://us-central1-airflow-check-c-0ac5f198-bucket/dags
 ```
+Send operators
+```
+gsutil cp dag-example.py gs://europe-west1-test-dag-w-new-af7c368b-bucket/plugins
+```
 
 ## DAG file description
 Dependency description  
