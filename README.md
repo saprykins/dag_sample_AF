@@ -59,4 +59,4 @@ sources:
 
 # Time scheduling
 
-Check in file list
+Irregular periods [link](https://www.astronomer.io/guides/scheduling-in-airflow/)
